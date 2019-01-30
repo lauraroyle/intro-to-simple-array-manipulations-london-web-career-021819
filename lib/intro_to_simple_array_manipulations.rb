@@ -33,3 +33,11 @@ end
 def using_uniq(captain_planet_and_the_planeteers)
   new_array = captain_planet_and_the_planeteers.uniq
 end
+
+def using_flatten(private_colleges_in_newyork)
+  flat_array = private_colleges_in_newyork.flatten
+end
+
+def using_delete(instructors, no_offense_steven)
+  using_delete.delete('Steven')
+end
