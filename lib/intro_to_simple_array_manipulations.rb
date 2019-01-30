@@ -13,3 +13,7 @@ end
 def pop_with_args(chars_in_game_of_thrones)
   chars_arya_killed = chars_in_game_of_thrones.pop(2)
 end
+
+def using_unshift(my_favorite_cities)
+  im_so_over_this_city = my_favorite_cities.unshift('Lagos')
+end
